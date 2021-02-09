@@ -20,7 +20,7 @@ A [Bevy](https://github.com/bevyengine/bevy) plugin for 3D mouse picking and ray
 To run the `3d_scene` example - a modified version of the `Bevy` example of the same name - clone this repository and run:
 
 ```console
-cargo run --example 3d_scene --features="example_deps"
+cargo run --example 3d_scene --features="ex"
 ```
 
 Note that by default this plugin only depends on bevy's `render` feature to minimize both dependency count and compile time, as well as allow for wasm support. This is why the feature flag is needed to run examples, which need the winit and wgpu features to run.
