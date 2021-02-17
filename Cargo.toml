@@ -18,8 +18,6 @@ bevy = { git = "https://github.com/bevyengine/bevy", rev = "af6723156782b5579c90
 #bevy_mod_raycast = { git = "https://github.com/aevyrie/bevy_mod_raycast", rev="24b8ba464be2a936098971c9f6aa6c5738bd4250 }
 bevy_mod_raycast = { git = "https://github.com/cloudwow/bevy_mod_raycast", rev="690ef95eb3b4154af73f4c782606f76b651f480b" }
 
-cc6fbdb8acdbba133ec42d01c402171ee833f663
-
 [[example]]
 name = "3d_scene"
 
