@@ -16,10 +16,9 @@ categories = ["game-engines", "rendering"]
 bevy = { git = "https://github.com/bevyengine/bevy", rev = "af6723156782b5579c90b4eac1fa49b1646dbaf5" }
 #bevy = { git = "https://github.com/bevyengine/bevy", branch = "master"}
 #bevy_mod_raycast = { git = "https://github.com/aevyrie/bevy_mod_raycast", rev="24b8ba464be2a936098971c9f6aa6c5738bd4250 }
-bevy_mod_raycast = { path = "../bevy_mod_raycast" }
+bevy_mod_raycast = { git = "https://github.com/cloudwow/bevy_mod_raycast", rev="cc6fbdb8acdbba133ec42d01c402171ee833f663 }
 
-[features]
-ex = [ "bevy/bevy_wgpu", "bevy/bevy_winit", "bevy/bevy_gltf", "bevy/x11" ]
+cc6fbdb8acdbba133ec42d01c402171ee833f663
 
 [[example]]
 name = "3d_scene"
